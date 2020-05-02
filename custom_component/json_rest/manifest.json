@@ -1,0 +1,8 @@
+{
+        "domain": "jsonrest",
+        "name": "JSONrest custom component",
+        "documentation": "",
+        "requirements": [],
+        "dependencies": [],
+        "codeowners": []
+}
