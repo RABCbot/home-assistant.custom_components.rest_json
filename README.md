@@ -23,15 +23,12 @@ sensor:
 Add a markdown card to your UI
 Set content to
 ```
-<b>
-{{ states.sensor.bible_word.attributes.words[0].word.spanish }}</b></br>
+<b>{{ states.sensor.bible_word.attributes.words[0].word.english }}</b></br>
 {{ states.sensor.bible_word.attributes.words[0].language }}
 <i>{{ states.sensor.bible_word.attributes.words[0].transliteration }}</i>,
-{{ states.sensor.bible_word.attributes.words[0].definition.spanish }}
+{{ states.sensor.bible_word.attributes.words[0].definition.english }}
 </br>
-Aparece {{ states.sensor.bible_word.attributes.words[0].occurrences }}
-veces</br>
-{{ states.sensor.bible_word.attributes.words[0].key_verse }}
-</br>
+Appears {{ states.sensor.bible_word.attributes.words[0].occurrences }} times</br>
+{{ states.sensor.bible_word.attributes.words[0].key_verse }}</br>
 {{ states.sensor.bible_word.attributes.words[0].verses }}
 ```
