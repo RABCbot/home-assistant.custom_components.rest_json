@@ -1,16 +1,12 @@
 # Home-Assistant-Json_rest
-Custom entity based on a sensor to get rest pages and set a JSON attribute
+Custom Restful sensor, return a json attribute
 Based on https://github.com/mad-ady/home-assistant-customizations/tree/master/custom_components/sensor
-
-## Setup
-Get the service endpoint and key, follow these instructions https://docs.microsoft.com/en-us/azure/search/search-get-started-postman
 
 ## Installation
 Copy all the files from this repo, to your custom_component folder
 
 ## Configuration
 Add to your configuration yaml:
-
 ```yaml
 sensor:
 - platform: json_rest
