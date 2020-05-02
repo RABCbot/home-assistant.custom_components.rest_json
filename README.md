@@ -1,5 +1,6 @@
-# Home-Assistant-MicrosoftVision
-This custom integration calls the Microsoft Azure Cognitive services Vision API https://azure.microsoft.com/en-us/services/cognitive-services/#api
+# Home-Assistant-Json_rest
+Custom entity based on a sensor to get rest pages and set a JSON attribute
+Based on https://github.com/mad-ady/home-assistant-customizations/tree/master/custom_components/sensor
 
 ## Setup
 Get the service endpoint and key, follow these instructions https://docs.microsoft.com/en-us/azure/search/search-get-started-postman
